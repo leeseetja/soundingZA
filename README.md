@@ -1,4 +1,4 @@
-# Near real-time Objective Skew-T Analysis for South Africa
+# Near real-time Skew-T Analysis for South Africa
 
 **Disclaimer:** This is a product primarily developed for students and weather enthusiasts. For official severe weather forecasts contact the South African Weather Service.
 
