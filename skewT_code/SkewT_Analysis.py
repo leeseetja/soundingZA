@@ -60,4 +60,4 @@ plt.title('Valid Time: {} UTC'.format(dt), loc='right')
 # Use plt.show() if you want a pop up image when you run the script
 
 # Save the figure in current folder
-fig.savefig('/home/lesetja/soundingZA/skewT_images/Irene_Skew-T.png',dpi=300,bbox_inches='tight')
+fig.savefig('/home/lesetja/soundingZA/skewT_images/Irene_Skew-T.png',dpi=100,bbox_inches='tight')
