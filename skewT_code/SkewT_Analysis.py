@@ -10,7 +10,7 @@ from siphon.simplewebservice.wyoming import WyomingUpperAir
 # Plan to soft code these variables in future updates, 
 
 # to make it easy to access any station in South Africa for any given time
-dt = datetime(2017, 12, 11, 9)
+dt = datetime(2020, 7, 30, 0)
 station = 'FAIR'
 
 # Grab remote data from server at the University of Wyoming. This requires internet connection.
@@ -55,10 +55,9 @@ skew.plot_mixing_lines(p=np.arange(1000, 99, -20) * units.hPa,
 
 # Add some descriptive titles. For 'exact' station name as from the server pull, use {}.
 plt.title('Irene (FAIR) Sounding'.format(station), loc='left')
-#plt.title('Valid Time: {} UTC'.format(dt), loc='right')
-plt.title('Valid Time: 2017-12-11 12 UTC'.format(dt), loc='right')
+plt.title('Valid Time: {} UTC'.format(dt), loc='right')
 
 # Use plt.show() if you want a pop up image when you run the script
 
 # Save the figure in current folder
-fig.savefig('Irene_real_time_Skew-T_Analysis.png',dpi=300,bbox_inches='tight')
+fig.savefig('/home/lesetja/soundingZA/skewT_images/Irene_Skew-T.png',dpi=300,bbox_inches='tight')
